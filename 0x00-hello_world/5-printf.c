@@ -8,9 +8,6 @@
 
 int main(void)
 {
-	printf("\"with proper grammar, but the outcome is a piece of art,");
+	printf("\"with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
-
-gcc -Wall art.c -o art_program
-./art_program
