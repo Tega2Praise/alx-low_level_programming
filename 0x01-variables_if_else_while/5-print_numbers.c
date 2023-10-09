@@ -10,10 +10,10 @@ int main(void)
 {
 	char letter;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (letter = 'a'; letter <= 'k'; letter++)
 
 	{
-	if (letter != 'e' && letter != 'q')
+	if (letter != 'e' && letter != 'i')
 	putchar(letter);
 	}
 
