@@ -10,7 +10,7 @@ int main(void)
 {
 	char letter;
 
-	for (letter = 'a'; letter <= 'k'; letter++)
+	for (letter = 'a'; letter <= 'j'; letter++)
 
 	{
 	if (letter != 'e' && letter != 'i')
