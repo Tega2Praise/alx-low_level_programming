@@ -1,1 +1,1 @@
-0x07.c Even pointer
+ Even more pointers, arrays and strings
