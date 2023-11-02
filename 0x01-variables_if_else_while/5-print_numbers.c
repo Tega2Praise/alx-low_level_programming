@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - program that prints the alphabet in lowercase and upper case
+ * main - entry point
+ * print - all single digit numbers of base 10
  *
- * Return: Always 0.
+ * Return: always 0
  */
 
 int main(void)
 {
-	char letter;
+	int i = 0;
 
-	for (letter = 'a'; letter <= 'j'; letter++)
-
+	while (i < 10)
 	{
-	if (letter != 'e' && letter != 'i')
-	putchar(letter);
+		printf("%d\n", i);
+		i++;
 	}
-
-	putchar('\n');
 	return (0);
 }
+
+
