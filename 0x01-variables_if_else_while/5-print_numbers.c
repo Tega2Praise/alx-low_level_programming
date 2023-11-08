@@ -2,21 +2,17 @@
 
 /**
  * main - entry point
- * print - all single digit numbers of base 10
- *
+ * print - all single numbers of base 10
  * Return: always 0
  */
-
 int main(void)
 {
-	int i = 0;
+	int count = 0;
 
-	while (i <= 9)
+	while (count < 9)
 	{
-		printf("%d\n", i);
-		i++;
+	printf("count is: %d\n", count);
+	count++;
 	}
 	return (0);
 }
-
-
