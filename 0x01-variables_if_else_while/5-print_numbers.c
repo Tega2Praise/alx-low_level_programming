@@ -9,7 +9,7 @@ int main(void)
 {
 	int count = 0;
 
-	while (count < 9)
+	while (count < 10)
 	{
 	printf("count is: %d\n", count);
 	count++;
