@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	int count = 0;
+	char count = 0;
 
-	while (count < 10)
+	for (count = 0; count <= 10; count++)
 	{
-	printf("count is: %d\n", count);
-	count++;
+	putchar(count + '0');
 	}
+	putchar('\n');
 	return (0);
 }
